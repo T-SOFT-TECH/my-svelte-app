@@ -1,3 +1,78 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+@theme {
+    /* TSOFT color palette */
+    --color-tsoft-50: #f0fdf4;
+    --color-tsoft-100: #dcfce7;
+    --color-tsoft-200: #bbf7d0;
+    --color-tsoft-300: #86efac;
+    --color-tsoft-400: #4ade80;
+    --color-tsoft-500: #22c55e;
+    --color-tsoft-600: #16a34a;
+    --color-tsoft-700: #15803d;
+    --color-tsoft-800: #166534;
+    --color-tsoft-900: #14532d;
+    --color-tsoft-950: #052e16;
+
+    /* Music theme secondary colors */
+    --color-music-500: #8b5cf6;
+    --color-music-600: #7c3aed;
+    --color-music-700: #6d28d9;
+}
+
+
+
+
+
+
+/* Clear and simple animation styles */
+.animate-on-scroll {
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+/* Basic animation - just fade in */
+.animate-on-scroll.show {
+    opacity: 1;
+}
+
+/* Slide right variant */
+.animate-slide-right {
+    transform: translateX(-50px);
+}
+.animate-slide-right.show {
+    transform: translateX(0);
+}
+
+/* Slide left variant */
+.animate-slide-left {
+    transform: translateX(50px);
+}
+.animate-slide-left.show {
+    transform: translateX(0);
+}
+
+/* Fade up variant */
+.animate-fade-up {
+    transform: translateY(50px);
+}
+.animate-fade-up.show {
+    transform: translateY(0);
+}
+
+/* Scale variant */
+.animate-scale {
+    transform: scale(0.8);
+}
+.animate-scale.show {
+    transform: scale(1);
+}
+
+/* Animation delay classes */
+.delay-100 { transition-delay: 100ms; }
+.delay-200 { transition-delay: 200ms; }
+.delay-300 { transition-delay: 300ms; }
+.delay-400 { transition-delay: 400ms; }
+.delay-500 { transition-delay: 500ms; }
