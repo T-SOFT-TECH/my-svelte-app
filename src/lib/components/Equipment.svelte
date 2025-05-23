@@ -284,6 +284,163 @@
 		</div>
 	</div>
 
+	<!-- Equipment Showcase Section -->
+	<div class="mt-24 mb-16 relative z-10">
+		<div class="container mx-auto px-4 md:px-6">
+			<div class="text-center mb-12 animate-on-scroll animate-fade-up">
+				<div class="inline-flex items-center justify-center mb-4">
+					<span class="h-px w-8 bg-gradient-to-r from-tsoft-500 to-transparent"></span>
+					<span class="mx-4 text-tsoft-400 font-medium text-sm uppercase tracking-wider">Premium Selection</span>
+					<span class="h-px w-8 bg-gradient-to-l from-tsoft-500 to-transparent"></span>
+				</div>
+				<h2 class="text-2xl md:text-3xl font-bold mb-4 text-white">
+					Featured Equipment Brands
+				</h2>
+				<p class="text-white/70 max-w-2xl mx-auto">
+					We partner with industry-leading manufacturers to provide you with the highest quality equipment for your creative and technical needs.
+				</p>
+			</div>
+
+			<!-- Brands showcase -->
+			<div class="grid grid-cols-2 md:grid-cols-4 gap-6 animate-on-scroll animate-fade-up delay-100">
+				<!-- Brand 1 -->
+				<div class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 flex flex-col items-center justify-center hover:bg-white/10 transition-colors duration-300 group">
+					<div class="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mb-4 group-hover:bg-white/20 transition-colors duration-300">
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white/80" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
+						</svg>
+					</div>
+					<h3 class="text-lg font-bold text-white mb-1">Gibson</h3>
+					<p class="text-white/60 text-sm text-center">Premium guitars and string instruments</p>
+				</div>
+
+				<!-- Brand 2 -->
+				<div class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 flex flex-col items-center justify-center hover:bg-white/10 transition-colors duration-300 group">
+					<div class="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mb-4 group-hover:bg-white/20 transition-colors duration-300">
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white/80" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" />
+						</svg>
+					</div>
+					<h3 class="text-lg font-bold text-white mb-1">Neumann</h3>
+					<p class="text-white/60 text-sm text-center">Professional studio microphones</p>
+				</div>
+
+				<!-- Brand 3 -->
+				<div class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 flex flex-col items-center justify-center hover:bg-white/10 transition-colors duration-300 group">
+					<div class="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mb-4 group-hover:bg-white/20 transition-colors duration-300">
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white/80" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+						</svg>
+					</div>
+					<h3 class="text-lg font-bold text-white mb-1">Apple</h3>
+					<p class="text-white/60 text-sm text-center">Mac computers and audio workstations</p>
+				</div>
+
+				<!-- Brand 4 -->
+				<div class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 flex flex-col items-center justify-center hover:bg-white/10 transition-colors duration-300 group">
+					<div class="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mb-4 group-hover:bg-white/20 transition-colors duration-300">
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white/80" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15.536a5 5 0 001.414 1.414m0 0l-2.828 2.828m0 0a9 9 0 010-12.728m2.828 2.828a5 5 0 010 7.072M3 3l3.546 3.546m0 0a5 5 0 017.072 0m0 0l3.546-3.546M21 21l-3.546-3.546m0 0a5 5 0 01-7.072 0m0 0L3 21" />
+						</svg>
+					</div>
+					<h3 class="text-lg font-bold text-white mb-1">Universal Audio</h3>
+					<p class="text-white/60 text-sm text-center">Audio interfaces and processing equipment</p>
+				</div>
+			</div>
+
+			<!-- Equipment services -->
+			<div class="mt-16 grid md:grid-cols-3 gap-8 animate-on-scroll animate-fade-up delay-200">
+				<!-- Service 1 -->
+				<div class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 hover:bg-white/10 transition-colors duration-300">
+					<div class="flex items-center mb-4">
+						<div class="p-2 rounded-lg bg-tsoft-800/50 text-tsoft-400 mr-3">
+							<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+							</svg>
+						</div>
+						<h3 class="text-xl font-bold text-white">Equipment Sales</h3>
+					</div>
+					<p class="text-white/70 mb-4">Purchase high-quality equipment with expert guidance to ensure you get the right tools for your specific needs.</p>
+					<ul class="space-y-2 mb-4">
+						<li class="flex items-center text-white/70">
+							<div class="h-1.5 w-1.5 rounded-full bg-tsoft-500 mr-2"></div>
+							<span>Competitive pricing</span>
+						</li>
+						<li class="flex items-center text-white/70">
+							<div class="h-1.5 w-1.5 rounded-full bg-tsoft-500 mr-2"></div>
+							<span>Manufacturer warranty</span>
+						</li>
+						<li class="flex items-center text-white/70">
+							<div class="h-1.5 w-1.5 rounded-full bg-tsoft-500 mr-2"></div>
+							<span>Expert recommendations</span>
+						</li>
+					</ul>
+				</div>
+
+				<!-- Service 2 -->
+				<div class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 hover:bg-white/10 transition-colors duration-300">
+					<div class="flex items-center mb-4">
+						<div class="p-2 rounded-lg bg-tsoft-800/50 text-tsoft-400 mr-3">
+							<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M14.121 14.121L19 19m-7-7l7-7m-7 7l-2.879 2.879M12 12L9.121 9.121m0 5.758a3 3 0 10-4.243 4.243 3 3 0 004.243-4.243zm0-5.758a3 3 0 10-4.243-4.243 3 3 0 004.243 4.243z" />
+						</svg>
+						</div>
+						<h3 class="text-xl font-bold text-white">Equipment Rental</h3>
+					</div>
+					<p class="text-white/70 mb-4">Rent professional equipment for your projects without the commitment of purchasing, ideal for one-off productions or trying before buying.</p>
+					<ul class="space-y-2 mb-4">
+						<li class="flex items-center text-white/70">
+							<div class="h-1.5 w-1.5 rounded-full bg-tsoft-500 mr-2"></div>
+							<span>Daily, weekly, monthly options</span>
+						</li>
+						<li class="flex items-center text-white/70">
+							<div class="h-1.5 w-1.5 rounded-full bg-tsoft-500 mr-2"></div>
+							<span>Technical support included</span>
+						</li>
+						<li class="flex items-center text-white/70">
+							<div class="h-1.5 w-1.5 rounded-full bg-tsoft-500 mr-2"></div>
+							<span>Delivery and setup available</span>
+						</li>
+					</ul>
+				</div>
+
+				<!-- Service 3 -->
+				<div class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 hover:bg-white/10 transition-colors duration-300">
+					<div class="flex items-center mb-4">
+						<div class="p-2 rounded-lg bg-tsoft-800/50 text-tsoft-400 mr-3">
+							<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
+							</svg>
+						</div>
+						<h3 class="text-xl font-bold text-white">Custom Setup & Training</h3>
+					</div>
+					<p class="text-white/70 mb-4">Get your equipment professionally configured and learn how to use it effectively with our personalized training sessions.</p>
+					<ul class="space-y-2 mb-4">
+						<li class="flex items-center text-white/70">
+							<div class="h-1.5 w-1.5 rounded-full bg-tsoft-500 mr-2"></div>
+							<span>Professional installation</span>
+						</li>
+						<li class="flex items-center text-white/70">
+							<div class="h-1.5 w-1.5 rounded-full bg-tsoft-500 mr-2"></div>
+							<span>One-on-one training</span>
+						</li>
+						<li class="flex items-center text-white/70">
+							<div class="h-1.5 w-1.5 rounded-full bg-tsoft-500 mr-2"></div>
+							<span>Ongoing technical support</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<!-- Equipment catalog button -->
+			<div class="text-center mt-12 animate-on-scroll animate-fade-up delay-300">
+				<a href="#contact" class="inline-block px-8 py-4 bg-gradient-to-r from-tsoft-600 to-music-600 text-white font-medium rounded-lg hover:from-tsoft-500 hover:to-music-500 transition-all duration-300 shadow-lg shadow-tsoft-600/20 hover:shadow-tsoft-500/30 transform hover:-translate-y-0.5">
+					Request Equipment Catalog
+				</a>
+			</div>
+		</div>
+	</div>
+
 	<!-- Bottom separator -->
 	<div class="absolute bottom-0 left-0 right-0 h-20 overflow-hidden">
 		<svg class="absolute bottom-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none" style="width: 100%; height: 120px;">

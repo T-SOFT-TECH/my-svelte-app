@@ -58,14 +58,14 @@
 	<div class="absolute bottom-0 left-0 w-80 h-80 bg-music-500/5 rounded-full blur-3xl -z-10"></div>
 
 	<div class="container mx-auto px-4 md:px-6 relative z-10">
-		<!-- Section header -->
+  <!-- Section header -->
 		<div class="text-center mb-16 animate-on-scroll animate-fade-up">
 			<span class="inline-block px-4 py-1 bg-tsoft-50 text-tsoft-700 rounded-full text-sm font-semibold mb-4 border border-tsoft-100">About Us</span>
 			<h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 bg-gradient-to-r from-tsoft-700 to-tsoft-900 bg-clip-text text-transparent">
 				Your Trusted Partner Since 2015
 			</h2>
 			<p class="text-lg text-gray-600 max-w-3xl mx-auto">
-				TSOFT-TECHNOLOGIES is a dynamic tech company specializing in software/web development, IT solutions, music and audio engineering, and the procurement and sale of musical equipment.
+				TSOFT-TECHNOLOGIES is a dynamic tech company specializing in software/web development, IT solutions, music and audio engineering, and the procurement and sale of musical equipment. With a decade of experience, we've established ourselves as a leader in providing integrated technology and creative solutions.
 			</p>
 		</div>
 
@@ -294,6 +294,76 @@
 								<path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/>
 							</svg>
 						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Achievements and Milestones Section -->
+	<div class="py-16 bg-gradient-to-r from-tsoft-50 to-gray-50 mt-16 rounded-3xl shadow-lg animate-on-scroll animate-fade-up">
+		<div class="container mx-auto px-4 md:px-6">
+			<div class="text-center mb-12">
+				<span class="inline-block px-4 py-1 bg-tsoft-100 text-tsoft-700 rounded-full text-sm font-semibold mb-4">Our Journey</span>
+				<h2 class="text-2xl md:text-3xl font-bold mb-4 text-gray-900">Achievements & Milestones</h2>
+				<p class="text-gray-600 max-w-2xl mx-auto">A decade of innovation, growth, and excellence in technology and music production.</p>
+			</div>
+
+			<div class="grid md:grid-cols-4 gap-6">
+				<!-- Milestone 1 -->
+				<div class="bg-white rounded-xl shadow-md p-6 border-t-4 border-tsoft-500 hover:shadow-lg transition-shadow duration-300">
+					<div class="text-tsoft-600 font-bold text-xl mb-1">2015</div>
+					<div class="font-medium text-gray-900 mb-2">Company Founded</div>
+					<p class="text-gray-600 text-sm">TSOFT-TECHNOLOGIES was established with a vision to bridge technology and creative industries.</p>
+				</div>
+
+				<!-- Milestone 2 -->
+				<div class="bg-white rounded-xl shadow-md p-6 border-t-4 border-tsoft-500 hover:shadow-lg transition-shadow duration-300">
+					<div class="text-tsoft-600 font-bold text-xl mb-1">2017</div>
+					<div class="font-medium text-gray-900 mb-2">Music Division Launch</div>
+					<p class="text-gray-600 text-sm">Expanded our services to include professional audio engineering and music production.</p>
+				</div>
+
+				<!-- Milestone 3 -->
+				<div class="bg-white rounded-xl shadow-md p-6 border-t-4 border-music-500 hover:shadow-lg transition-shadow duration-300">
+					<div class="text-music-600 font-bold text-xl mb-1">2019</div>
+					<div class="font-medium text-gray-900 mb-2">100th Client</div>
+					<p class="text-gray-600 text-sm">Reached a significant milestone of serving 100 clients across various industries.</p>
+				</div>
+
+				<!-- Milestone 4 -->
+				<div class="bg-white rounded-xl shadow-md p-6 border-t-4 border-music-500 hover:shadow-lg transition-shadow duration-300">
+					<div class="text-music-600 font-bold text-xl mb-1">2023</div>
+					<div class="font-medium text-gray-900 mb-2">International Expansion</div>
+					<p class="text-gray-600 text-sm">Expanded our services globally, serving clients across multiple countries.</p>
+				</div>
+			</div>
+
+			<!-- Recognition section -->
+			<div class="mt-12 bg-white rounded-xl shadow-md p-8 border border-gray-100">
+				<h3 class="text-xl font-bold text-gray-900 mb-4">Industry Recognition</h3>
+				<div class="grid md:grid-cols-2 gap-6">
+					<div class="flex items-start gap-3">
+						<div class="p-2 rounded-full bg-tsoft-100 text-tsoft-600">
+							<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+							</svg>
+						</div>
+						<div>
+							<h4 class="font-medium text-gray-900">Tech Innovator Award 2022</h4>
+							<p class="text-sm text-gray-600">Recognized for our innovative approach to integrating technology solutions with creative industries.</p>
+						</div>
+					</div>
+					<div class="flex items-start gap-3">
+						<div class="p-2 rounded-full bg-music-100 text-music-600">
+							<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
+							</svg>
+						</div>
+						<div>
+							<h4 class="font-medium text-gray-900">Audio Excellence Certificate 2021</h4>
+							<p class="text-sm text-gray-600">Awarded for outstanding contributions to audio engineering and music production quality.</p>
+						</div>
 					</div>
 				</div>
 			</div>

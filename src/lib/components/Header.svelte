@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { spring } from 'svelte/motion';
+	import { page } from '$app/stores';
 
 	let mobileMenuOpen = false;
 	let scrolled = false;
@@ -23,21 +24,24 @@
 		menuPosition.set(100);
 	}
 
-	function updateActiveSection() {
-		const sections = document.querySelectorAll('section[id]');
-		const scrollPosition = window.scrollY + headerHeight + 100;
-
-		sections.forEach(section => {
-			// Use type assertion to fix offsetTop and offsetHeight TypeScript errors
-			const sectionElement = section as HTMLElement;
-			const sectionTop = sectionElement.offsetTop;
-			const sectionHeight = sectionElement.offsetHeight;
-			const sectionId = sectionElement.getAttribute('id') || '';
-
-			if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
-				activeSection = sectionId;
-			}
-		});
+	// Update active section based on current route
+	$: {
+		const path = $page.url.pathname;
+		if (path === '/') {
+			activeSection = 'home';
+		} else if (path === '/services') {
+			activeSection = 'services';
+		} else if (path === '/technology') {
+			activeSection = 'technology';
+		} else if (path === '/music') {
+			activeSection = 'music';
+		} else if (path === '/equipment') {
+			activeSection = 'equipment';
+		} else if (path === '/about') {
+			activeSection = 'about';
+		} else if (path === '/contact') {
+			activeSection = 'contact';
+		}
 	}
 
 	onMount(() => {
@@ -50,7 +54,6 @@
 		// Handle scroll events
 		const handleScroll = () => {
 			scrolled = window.scrollY > 20;
-			updateActiveSection();
 		};
 
 		// Close mobile menu when clicking outside
@@ -84,12 +87,13 @@
 	});
 
 	const navItems = [
-		{ id: 'home', label: 'Home' },
-		{ id: 'services', label: 'Services' },
-		{ id: 'technology', label: 'Technology' },
-		{ id: 'music', label: 'Music & Audio' },
-		{ id: 'equipment', label: 'Equipment' },
-		{ id: 'about', label: 'About' }
+		{ id: 'home', label: 'Home', href: '/' },
+		{ id: 'services', label: 'Services', href: '/services' },
+		{ id: 'technology', label: 'Technology', href: '/technology' },
+		{ id: 'music', label: 'Music & Audio', href: '/music' },
+		{ id: 'equipment', label: 'Equipment', href: '/equipment' },
+		{ id: 'about', label: 'About', href: '/about' },
+		{ id: 'contact', label: 'Contact', href: '/contact' }
 	];
 </script>
 
@@ -102,7 +106,7 @@
 		<div class="flex justify-between items-center h-16 md:h-20">
 			<!-- Logo -->
 			<div class="flex items-center">
-				<a href="#home" class="flex items-center space-x-2 group">
+				<a href="/" class="flex items-center space-x-2 group">
 					<div class="relative h-10 w-10 md:h-12 md:w-12 transition-all duration-500 group-hover:rotate-12">
 						<!-- Main logo circle with gradient background -->
 						<div class="absolute inset-0 bg-gradient-to-br from-tsoft-500 to-tsoft-700 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-lg shadow-tsoft-500/20">
@@ -130,7 +134,7 @@
 			<div class="hidden md:flex items-center space-x-1">
 				{#each navItems as item (item.id)}
 
-				<a	href="#{item.id}"
+				<a	href={item.href}
 					class="relative px-3 py-2 rounded-md text-sm font-medium transition-all duration-200
 					{activeSection === item.id
 						? 'text-white'
@@ -144,16 +148,6 @@
 					{/if}
 					</a>
 				{/each}
-
-				<!-- Contact button -->
-
-			<a	href="#contact"
-				class="ml-2 px-5 py-2 rounded-md text-sm font-medium shadow-lg transition-all duration-300
-				bg-gradient-to-r from-tsoft-600 to-music-600 hover:from-tsoft-500 hover:to-music-500
-				text-white hover:shadow-md hover:shadow-tsoft-500/20 hover:-translate-y-0.5"
-				>
-				Contact Us
-				</a>
 			</div>
 
 			<!-- Mobile Menu Button -->
@@ -217,7 +211,7 @@
 	<div class="py-3 px-4 space-y-1">
 		{#each navItems as item (item.id)}
 
-		<a	href="#{item.id}"
+		<a	href={item.href}
 			on:click={closeMobileMenu}
 			class="flex items-center space-x-3 px-4 py-3 rounded-lg text-white {activeSection === item.id ? 'bg-white/10 border-l-2 border-tsoft-500' : 'hover:bg-white/5'}"
 			>
@@ -226,15 +220,6 @@
 			</a>
 		{/each}
 
-		<div class="pt-5 pb-2">
-
-		<a	href="#contact"
-			on:click={closeMobileMenu}
-			class="flex justify-center w-full px-4 py-3 rounded-lg bg-gradient-to-r from-tsoft-600 to-music-600 text-white font-medium"
-			>
-			Contact Us
-			</a>
-		</div>
 	</div>
 </div>
 

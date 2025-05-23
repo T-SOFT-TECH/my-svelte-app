@@ -225,6 +225,101 @@
 		</div>
 	</div>
 
+	<!-- Technology Stack Section -->
+	<div class="mt-24 mb-16 relative z-10">
+		<div class="container mx-auto px-4 md:px-6">
+			<div class="text-center mb-12 animate-on-scroll animate-fade-up">
+				<div class="inline-flex items-center justify-center mb-4">
+					<span class="h-px w-8 bg-gradient-to-r from-tsoft-500 to-transparent"></span>
+					<span class="mx-4 text-tsoft-400 font-medium text-sm uppercase tracking-wider">Our Expertise</span>
+					<span class="h-px w-8 bg-gradient-to-l from-tsoft-500 to-transparent"></span>
+				</div>
+				<h2 class="text-2xl md:text-3xl font-bold mb-4 text-white">
+					Technology Stack & Expertise
+				</h2>
+				<p class="text-white/70 max-w-2xl mx-auto">
+					We leverage cutting-edge technologies and frameworks to deliver robust, scalable, and innovative solutions for our clients.
+				</p>
+			</div>
+
+			<!-- Technology categories -->
+			<div class="grid md:grid-cols-3 gap-8 animate-on-scroll animate-fade-up delay-100">
+				<!-- Frontend -->
+				<div class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 hover:bg-white/10 transition-colors duration-300">
+					<div class="flex items-center mb-4">
+						<div class="p-2 rounded-lg bg-tsoft-800/50 text-tsoft-400 mr-3">
+							<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+							</svg>
+						</div>
+						<h3 class="text-xl font-bold text-white">Frontend Development</h3>
+					</div>
+					<p class="text-white/70 mb-4">Creating responsive, intuitive, and engaging user interfaces with modern frameworks and libraries.</p>
+
+					<!-- Tech tags -->
+					<div class="flex flex-wrap gap-2 mt-4">
+						<span class="px-3 py-1 bg-tsoft-900/50 text-tsoft-400 text-xs font-medium rounded-full border border-tsoft-800/50">React</span>
+						<span class="px-3 py-1 bg-tsoft-900/50 text-tsoft-400 text-xs font-medium rounded-full border border-tsoft-800/50">Vue.js</span>
+						<span class="px-3 py-1 bg-tsoft-900/50 text-tsoft-400 text-xs font-medium rounded-full border border-tsoft-800/50">Svelte</span>
+						<span class="px-3 py-1 bg-tsoft-900/50 text-tsoft-400 text-xs font-medium rounded-full border border-tsoft-800/50">TypeScript</span>
+						<span class="px-3 py-1 bg-tsoft-900/50 text-tsoft-400 text-xs font-medium rounded-full border border-tsoft-800/50">Tailwind CSS</span>
+					</div>
+				</div>
+
+				<!-- Backend -->
+				<div class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 hover:bg-white/10 transition-colors duration-300">
+					<div class="flex items-center mb-4">
+						<div class="p-2 rounded-lg bg-tsoft-800/50 text-tsoft-400 mr-3">
+							<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01" />
+							</svg>
+						</div>
+						<h3 class="text-xl font-bold text-white">Backend Development</h3>
+					</div>
+					<p class="text-white/70 mb-4">Building robust, scalable, and secure server-side applications and APIs to power your digital solutions.</p>
+
+					<!-- Tech tags -->
+					<div class="flex flex-wrap gap-2 mt-4">
+						<span class="px-3 py-1 bg-tsoft-900/50 text-tsoft-400 text-xs font-medium rounded-full border border-tsoft-800/50">Node.js</span>
+						<span class="px-3 py-1 bg-tsoft-900/50 text-tsoft-400 text-xs font-medium rounded-full border border-tsoft-800/50">Python</span>
+						<span class="px-3 py-1 bg-tsoft-900/50 text-tsoft-400 text-xs font-medium rounded-full border border-tsoft-800/50">Java</span>
+						<span class="px-3 py-1 bg-tsoft-900/50 text-tsoft-400 text-xs font-medium rounded-full border border-tsoft-800/50">Express</span>
+						<span class="px-3 py-1 bg-tsoft-900/50 text-tsoft-400 text-xs font-medium rounded-full border border-tsoft-800/50">MongoDB</span>
+					</div>
+				</div>
+
+				<!-- Cloud & DevOps -->
+				<div class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 hover:bg-white/10 transition-colors duration-300">
+					<div class="flex items-center mb-4">
+						<div class="p-2 rounded-lg bg-tsoft-800/50 text-tsoft-400 mr-3">
+							<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
+							</svg>
+						</div>
+						<h3 class="text-xl font-bold text-white">Cloud & DevOps</h3>
+					</div>
+					<p class="text-white/70 mb-4">Deploying, managing, and scaling your applications with modern cloud infrastructure and DevOps practices.</p>
+
+					<!-- Tech tags -->
+					<div class="flex flex-wrap gap-2 mt-4">
+						<span class="px-3 py-1 bg-tsoft-900/50 text-tsoft-400 text-xs font-medium rounded-full border border-tsoft-800/50">AWS</span>
+						<span class="px-3 py-1 bg-tsoft-900/50 text-tsoft-400 text-xs font-medium rounded-full border border-tsoft-800/50">Azure</span>
+						<span class="px-3 py-1 bg-tsoft-900/50 text-tsoft-400 text-xs font-medium rounded-full border border-tsoft-800/50">Docker</span>
+						<span class="px-3 py-1 bg-tsoft-900/50 text-tsoft-400 text-xs font-medium rounded-full border border-tsoft-800/50">Kubernetes</span>
+						<span class="px-3 py-1 bg-tsoft-900/50 text-tsoft-400 text-xs font-medium rounded-full border border-tsoft-800/50">CI/CD</span>
+					</div>
+				</div>
+			</div>
+
+			<!-- Case studies button -->
+			<div class="text-center mt-12 animate-on-scroll animate-fade-up delay-300">
+				<a href="#contact" class="inline-block px-8 py-4 bg-gradient-to-r from-tsoft-600 to-tsoft-700 text-white font-medium rounded-lg hover:from-tsoft-500 hover:to-tsoft-600 transition-all duration-300 shadow-lg shadow-tsoft-600/20 hover:shadow-tsoft-500/30 transform hover:-translate-y-0.5">
+					View Our Case Studies
+				</a>
+			</div>
+		</div>
+	</div>
+
 	<!-- Curved bottom separator -->
 	<div class="absolute bottom-0 left-0 right-0 h-20 overflow-hidden">
 		<svg class="absolute bottom-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none" style="width: 100%; height: 120px;">

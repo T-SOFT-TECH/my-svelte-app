@@ -301,4 +301,218 @@
 			</div>
 		</div>
 	</div>
+
+	<!-- Support Options Section -->
+	<div class="py-16 bg-gradient-to-r from-tsoft-950/50 to-tsoft-900/50 mt-16 rounded-3xl shadow-lg border border-white/10 backdrop-blur-sm animate-on-scroll animate-fade-up">
+		<div class="container mx-auto px-4 md:px-6">
+			<div class="text-center mb-12">
+				<span class="inline-block px-4 py-1 bg-tsoft-900/50 text-tsoft-400 rounded-full text-sm font-semibold mb-4 border border-tsoft-800/50">Customer Support</span>
+				<h2 class="text-2xl md:text-3xl font-bold mb-4 text-white">
+					Dedicated Support Options
+				</h2>
+				<p class="text-white/70 max-w-2xl mx-auto">
+					We're committed to providing exceptional support to ensure your success with our services and products.
+				</p>
+			</div>
+
+			<!-- Support options grid -->
+			<div class="grid md:grid-cols-3 gap-8">
+				<!-- Support option 1 -->
+				<div class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 hover:bg-white/10 transition-colors duration-300">
+					<div class="flex items-center mb-4">
+						<div class="p-2 rounded-lg bg-tsoft-800/50 text-tsoft-400 mr-3">
+							<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z" />
+							</svg>
+						</div>
+						<h3 class="text-xl font-bold text-white">Personal Account Manager</h3>
+					</div>
+					<p class="text-white/70 mb-4">For enterprise clients and ongoing projects, we assign a dedicated account manager who understands your specific needs and ensures seamless service delivery.</p>
+					<ul class="space-y-2 mb-4">
+						<li class="flex items-center text-white/70">
+							<div class="h-1.5 w-1.5 rounded-full bg-tsoft-500 mr-2"></div>
+							<span>Direct point of contact</span>
+						</li>
+						<li class="flex items-center text-white/70">
+							<div class="h-1.5 w-1.5 rounded-full bg-tsoft-500 mr-2"></div>
+							<span>Regular progress updates</span>
+						</li>
+						<li class="flex items-center text-white/70">
+							<div class="h-1.5 w-1.5 rounded-full bg-tsoft-500 mr-2"></div>
+							<span>Strategic planning assistance</span>
+						</li>
+					</ul>
+				</div>
+
+				<!-- Support option 2 -->
+				<div class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 hover:bg-white/10 transition-colors duration-300">
+					<div class="flex items-center mb-4">
+						<div class="p-2 rounded-lg bg-tsoft-800/50 text-tsoft-400 mr-3">
+							<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+							</svg>
+						</div>
+						<h3 class="text-xl font-bold text-white">Technical Support Team</h3>
+					</div>
+					<p class="text-white/70 mb-4">Our expert technical support team is available to help troubleshoot issues, answer questions, and provide guidance on using our products and services.</p>
+					<ul class="space-y-2 mb-4">
+						<li class="flex items-center text-white/70">
+							<div class="h-1.5 w-1.5 rounded-full bg-tsoft-500 mr-2"></div>
+							<span>Email and phone support</span>
+						</li>
+						<li class="flex items-center text-white/70">
+							<div class="h-1.5 w-1.5 rounded-full bg-tsoft-500 mr-2"></div>
+							<span>Remote troubleshooting</span>
+						</li>
+						<li class="flex items-center text-white/70">
+							<div class="h-1.5 w-1.5 rounded-full bg-tsoft-500 mr-2"></div>
+							<span>Extended business hours</span>
+						</li>
+					</ul>
+				</div>
+
+				<!-- Support option 3 -->
+				<div class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 hover:bg-white/10 transition-colors duration-300">
+					<div class="flex items-center mb-4">
+						<div class="p-2 rounded-lg bg-tsoft-800/50 text-tsoft-400 mr-3">
+							<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+							</svg>
+						</div>
+						<h3 class="text-xl font-bold text-white">Knowledge Base & Resources</h3>
+					</div>
+					<p class="text-white/70 mb-4">Access our comprehensive knowledge base, tutorials, and documentation to find answers to common questions and learn how to get the most from our offerings.</p>
+					<ul class="space-y-2 mb-4">
+						<li class="flex items-center text-white/70">
+							<div class="h-1.5 w-1.5 rounded-full bg-tsoft-500 mr-2"></div>
+							<span>Detailed documentation</span>
+						</li>
+						<li class="flex items-center text-white/70">
+							<div class="h-1.5 w-1.5 rounded-full bg-tsoft-500 mr-2"></div>
+							<span>Video tutorials</span>
+						</li>
+						<li class="flex items-center text-white/70">
+							<div class="h-1.5 w-1.5 rounded-full bg-tsoft-500 mr-2"></div>
+							<span>FAQ section</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<!-- Support plans -->
+			<div class="mt-16 bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-8 animate-on-scroll animate-fade-up delay-200">
+				<h3 class="text-xl font-bold text-white mb-6 text-center">Support Plans</h3>
+				<div class="grid md:grid-cols-3 gap-6">
+					<!-- Basic plan -->
+					<div class="bg-tsoft-900/50 rounded-xl p-6 border border-white/5">
+						<div class="text-center mb-4">
+							<h4 class="text-lg font-bold text-white">Basic Support</h4>
+							<div class="text-2xl font-bold text-tsoft-400 my-2">Free</div>
+							<p class="text-white/60 text-sm">Included with all purchases</p>
+						</div>
+						<div class="space-y-3 mb-6">
+							<div class="flex items-center text-white/70">
+								<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-tsoft-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+								</svg>
+								<span>Email support</span>
+							</div>
+							<div class="flex items-center text-white/70">
+								<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-tsoft-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+								</svg>
+								<span>Knowledge base access</span>
+							</div>
+							<div class="flex items-center text-white/70">
+								<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-tsoft-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+								</svg>
+								<span>Standard response time</span>
+							</div>
+						</div>
+					</div>
+
+					<!-- Premium plan -->
+					<div class="bg-gradient-to-br from-tsoft-800/50 to-tsoft-900/50 rounded-xl p-6 border border-tsoft-700/30 shadow-lg relative">
+						<div class="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-tsoft-600 text-white text-xs font-bold px-3 py-1 rounded-full">
+							POPULAR
+						</div>
+						<div class="text-center mb-4">
+							<h4 class="text-lg font-bold text-white">Premium Support</h4>
+							<div class="text-2xl font-bold text-tsoft-400 my-2">$99<span class="text-sm font-normal text-white/60">/month</span></div>
+							<p class="text-white/60 text-sm">For businesses and professionals</p>
+						</div>
+						<div class="space-y-3 mb-6">
+							<div class="flex items-center text-white/70">
+								<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-tsoft-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+								</svg>
+								<span>Priority email & phone support</span>
+							</div>
+							<div class="flex items-center text-white/70">
+								<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-tsoft-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+								</svg>
+								<span>Remote troubleshooting</span>
+							</div>
+							<div class="flex items-center text-white/70">
+								<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-tsoft-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+								</svg>
+								<span>4-hour response time</span>
+							</div>
+							<div class="flex items-center text-white/70">
+								<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-tsoft-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+								</svg>
+								<span>Monthly consultation call</span>
+							</div>
+						</div>
+					</div>
+
+					<!-- Enterprise plan -->
+					<div class="bg-tsoft-900/50 rounded-xl p-6 border border-white/5">
+						<div class="text-center mb-4">
+							<h4 class="text-lg font-bold text-white">Enterprise Support</h4>
+							<div class="text-2xl font-bold text-tsoft-400 my-2">Custom</div>
+							<p class="text-white/60 text-sm">For large organizations</p>
+						</div>
+						<div class="space-y-3 mb-6">
+							<div class="flex items-center text-white/70">
+								<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-tsoft-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+								</svg>
+								<span>Dedicated account manager</span>
+							</div>
+							<div class="flex items-center text-white/70">
+								<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-tsoft-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+								</svg>
+								<span>24/7 emergency support</span>
+							</div>
+							<div class="flex items-center text-white/70">
+								<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-tsoft-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+								</svg>
+								<span>On-site support available</span>
+							</div>
+							<div class="flex items-center text-white/70">
+								<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-tsoft-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+								</svg>
+								<span>Custom SLA</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Contact support button -->
+			<div class="text-center mt-10 animate-on-scroll animate-fade-up delay-300">
+				<a href="#" class="inline-block px-8 py-4 bg-gradient-to-r from-tsoft-600 to-tsoft-700 text-white font-medium rounded-lg hover:from-tsoft-500 hover:to-tsoft-600 transition-all duration-300 shadow-lg shadow-tsoft-600/20 hover:shadow-tsoft-500/30 transform hover:-translate-y-0.5">
+					Contact Support Team
+				</a>
+			</div>
+		</div>
+	</div>
 </section>

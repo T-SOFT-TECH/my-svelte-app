@@ -54,7 +54,7 @@
 </script>
 
 <!-- Music & Audio Section -->
-<section id="music" class="py-20 md:py-28 bg-gradient-to-b from-white to-gray-50 relative overflow-hidden">
+<section id="music" class="py-20 md:py-28 bg-gradient-to-b from-tsoft-950 to-tsoft-900 relative overflow-hidden">
 	<!-- Background elements -->
 	<div class="absolute inset-0 -z-10">
 		<!-- Audio waveform pattern -->
@@ -89,7 +89,7 @@
 				Professional Audio Engineering
 			</h2>
 
-			<p class="text-lg text-gray-600 max-w-3xl mx-auto">
+   <p class="text-lg text-white/70 max-w-3xl mx-auto">
 				Our music and audio department offers professional services for artists, producers, and content creators looking for high-quality sound production.
 			</p>
 		</div>
@@ -141,7 +141,7 @@
 				</div>
 
 				<!-- Audio equipment specs -->
-				<div class="mt-6 bg-gray-50 border border-music-100 rounded-xl p-4 shadow-sm animate-on-scroll animate-fade-up delay-400">
+    <div class="mt-6 bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-4 shadow-sm animate-on-scroll animate-fade-up delay-400">
 					<div class="flex items-start gap-3">
 						<div class="p-2 rounded-lg bg-music-50 text-music-600">
 							<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -290,6 +290,120 @@
 						</div>
 					</div>
 				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Portfolio Section -->
+	<div class="py-16 bg-gradient-to-r from-music-50 to-white mt-16 rounded-3xl shadow-lg animate-on-scroll animate-fade-up">
+		<div class="container mx-auto px-4 md:px-6">
+			<div class="text-center mb-12">
+				<span class="inline-block px-4 py-1 bg-music-100 text-music-700 rounded-full text-sm font-semibold mb-4">Our Work</span>
+				<h2 class="text-2xl md:text-3xl font-bold mb-4 text-gray-900">Music Production Portfolio</h2>
+				<p class="text-gray-600 max-w-2xl mx-auto">Explore our diverse portfolio of music and audio production projects across various genres and mediums.</p>
+			</div>
+
+			<!-- Portfolio grid -->
+			<div class="grid md:grid-cols-3 gap-6">
+				<!-- Portfolio item 1 -->
+				<div class="bg-white rounded-xl shadow-md overflow-hidden group hover:shadow-lg transition-shadow duration-300">
+					<div class="relative h-48 overflow-hidden">
+						<img 
+							src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?q=80&w=2670&auto=format&fit=crop" 
+							alt="Music Album Cover" 
+							class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+						>
+						<div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+							<button class="p-3 bg-music-600 text-white rounded-full transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
+								<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+								</svg>
+							</button>
+						</div>
+					</div>
+					<div class="p-5">
+						<div class="flex items-center justify-between mb-2">
+							<h3 class="font-bold text-gray-900">Ethereal Dreams</h3>
+							<span class="text-xs font-medium text-music-600 bg-music-50 px-2 py-1 rounded-full">Album</span>
+						</div>
+						<p class="text-sm text-gray-600 mb-3">Full album production including recording, mixing, and mastering for indie electronic artist.</p>
+						<div class="flex items-center text-gray-500 text-xs">
+							<span>2023</span>
+							<span class="mx-2">•</span>
+							<span>Electronic</span>
+						</div>
+					</div>
+				</div>
+
+				<!-- Portfolio item 2 -->
+				<div class="bg-white rounded-xl shadow-md overflow-hidden group hover:shadow-lg transition-shadow duration-300">
+					<div class="relative h-48 overflow-hidden">
+						<img 
+							src="https://images.unsplash.com/photo-1619983081563-430f63602796?q=80&w=2574&auto=format&fit=crop" 
+							alt="Podcast Studio" 
+							class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+						>
+						<div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+							<button class="p-3 bg-music-600 text-white rounded-full transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
+								<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+								</svg>
+							</button>
+						</div>
+					</div>
+					<div class="p-5">
+						<div class="flex items-center justify-between mb-2">
+							<h3 class="font-bold text-gray-900">Tech Insights Podcast</h3>
+							<span class="text-xs font-medium text-music-600 bg-music-50 px-2 py-1 rounded-full">Podcast</span>
+						</div>
+						<p class="text-sm text-gray-600 mb-3">Audio production and post-processing for weekly technology podcast series.</p>
+						<div class="flex items-center text-gray-500 text-xs">
+							<span>2022-Present</span>
+							<span class="mx-2">•</span>
+							<span>Podcast</span>
+						</div>
+					</div>
+				</div>
+
+				<!-- Portfolio item 3 -->
+				<div class="bg-white rounded-xl shadow-md overflow-hidden group hover:shadow-lg transition-shadow duration-300">
+					<div class="relative h-48 overflow-hidden">
+						<img 
+							src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=2670&auto=format&fit=crop" 
+							alt="Commercial Audio" 
+							class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+						>
+						<div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+							<button class="p-3 bg-music-600 text-white rounded-full transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
+								<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+								</svg>
+							</button>
+						</div>
+					</div>
+					<div class="p-5">
+						<div class="flex items-center justify-between mb-2">
+							<h3 class="font-bold text-gray-900">Brand Sonic Identity</h3>
+							<span class="text-xs font-medium text-music-600 bg-music-50 px-2 py-1 rounded-full">Commercial</span>
+						</div>
+						<p class="text-sm text-gray-600 mb-3">Created complete sonic branding package including jingles and sound design for major retail brand.</p>
+						<div class="flex items-center text-gray-500 text-xs">
+							<span>2023</span>
+							<span class="mx-2">•</span>
+							<span>Commercial</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- View more button -->
+			<div class="text-center mt-10">
+				<a href="#contact" class="inline-block px-6 py-3 bg-music-600 text-white font-medium rounded-lg hover:bg-music-500 transition-all duration-300 shadow-lg shadow-music-600/20 hover:shadow-music-500/30 hover:-translate-y-0.5">
+					View Full Portfolio
+				</a>
 			</div>
 		</div>
 	</div>
